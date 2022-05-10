@@ -47,3 +47,18 @@ def wish(name):
     print("hello",name,"good morning")
 wish('durga')
 #decor flow is from top to bottom
+def decor111(func):
+    def inner(name):
+        print("decor 1 executed")
+        func(name)
+    return inner
+def decor1111(func):
+    def inner(name):
+        print("decor 11 executedddds")
+        func(name)
+    return inner
+@decor111
+@decor1111
+def wish(name):
+    print("hello",name,"good morning")
+wish('durga')
