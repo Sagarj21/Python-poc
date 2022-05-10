@@ -46,3 +46,4 @@ def decor11(func):
 def wish(name):
     print("hello",name,"good morning")
 wish('durga')
+#decor flow is from top to bottom
