@@ -4,7 +4,9 @@ def mygen():
     yield 'b'
 
 g=mygen()
-print(type(g))
+
+for x in g:
+    print(x)
 
 
 

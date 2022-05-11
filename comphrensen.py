@@ -1,6 +1,6 @@
 
 #bad approach    here  object wil be stored in memory
-l=[x*x for x in range(100000000)]     #list comphrension
+l=[x*x for x in range(100000000)]     #list compehrension
 for x in l:
     print(x)
 

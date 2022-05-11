@@ -1,4 +1,3 @@
-def f1():
-    a=10
-    print("f1",a)
-f1()
+from mymath import x,add
+print(x)
+print(add(10,20))
