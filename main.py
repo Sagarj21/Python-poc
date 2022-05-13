@@ -1,7 +1,10 @@
 import mymath
+import math
+help(math)
 #import mymath as m
 #mymath is user created file for module creation poc
 print(mymath.x)
+print(dir(mymath))
 #print(m.x)
 print(mymath.y)
 mymath.add(10,20)
